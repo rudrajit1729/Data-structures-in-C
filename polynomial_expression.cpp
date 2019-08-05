@@ -16,21 +16,6 @@ int  main()
 	display(start);
 }
 
-/*N *Create(N *start)
-{
-	int a,b;char ch;
-	while(1)
-	{
-		printf("\nEnter coefficient and exponent:");
-		scanf("%d %d",&a,&b);
-		start=insert(start,a,b);
-		printf("\nPress y to continue any other button to quit\n");
-		scanf("%c",&ch);
-		if(ch!='y')
-		break;
-	}
-	return start;
-}*/
 N *Create( N *start)
 {
 	int a,b;char ch;
