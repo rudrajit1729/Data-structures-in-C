@@ -40,7 +40,7 @@ void insert_at_beg(int v)
         ptr->link=start;
 }
 
-void insert_at_position(int p, int v)
+void insert_at_posi(int p, int v)
 {
     N *nu = (N*)malloc(sizeof(N)), *prev, *ptr;
     int c = 0;
@@ -117,7 +117,7 @@ void delete_from_end()
     free(ptr);    
 }
 
-void delete_from_position(int p){
+void delete_from_posi(int p){
     N *ptr, *ptr2, *prev;
     int c = 0;
     if(start == NULL){
